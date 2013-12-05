@@ -1,0 +1,81 @@
+body {
+    font-size: 120%;
+    margin: 1em;
+}
+
+.row {max-width: 40em;}
+
+header + p {margin-top: 2em;}
+
+.warnings {
+	color: red;
+}
+
+.formular {
+	line-height: 1.5;
+}
+
+.footer {
+	text-align: center;
+}
+
+input[type="text"] {
+	width: 20em;
+}
+
+textarea {
+	min-height: 6em;
+}
+
+.logo {
+	display: block;
+	margin: 5px auto;
+}
+
+/* view */
+#napis_komentar {
+	border: medium solid red;
+	padding: .5em;
+	background: white;
+	font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.comment {
+	border-top: thin solid #006900;
+	text-align: left;
+	padding: .5em 0;
+	font-size: 200%;
+	}
+
+.name {
+	float: left; font-size: 1.3em; padding-right: .2em; color: #006900;
+}
+.name:after {
+    content: ":";
+}
+
+.date {
+	float: left; font-size: 1em; color: #777777; padding: .2em;
+}
+
+.text {font-size: 1.4em;}
+
+.clear_both {clear: both;}
+
+.comment h3 {
+	text-align: left;
+	font-size: 1.4em; 
+	margin: 0 1em 0 0;
+	float: left;
+	xborder: 1px solid red;
+}
+
+/* admin */
+.status1{
+	background-color: lime !important;
+}
+
+.status0{
+	background-color: orange !important;
+}

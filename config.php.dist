@@ -1,0 +1,14 @@
+<?php
+// database setup
+define('DB_DRIVER', 'pdo_sqlite');
+define('DB_SERVER', 'localhost');
+define('DB_USER', 'live-blog');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'live-blog');
+
+define('DB_PATH', __DIR__.'/app.db')
+
+// moderation
+define('IS_MODERATED', TRUE);
+?>
+

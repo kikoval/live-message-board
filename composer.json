@@ -1,0 +1,7 @@
+{
+    "require": {
+        "smarty/smarty": "v3.1.15",
+        "doctrine/dbal": "2.4.*",
+        "doctrine/orm": "2.4.*"
+    }
+}
