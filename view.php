@@ -9,6 +9,7 @@ $smarty->assign('messages', $messages);
 
 $content = $smarty->fetch('view.tpl');
 $smarty->assign('title', 'blog.matfyz.sk - O matfyze, o živote...');
+$smarty->assign('refresh', 60);
 $smarty->assign('content', $content);
 $smarty->display('layout.tpl');
 ?>
