@@ -37,3 +37,9 @@
        </div>
     </form>
 </div>
+
+<script>
+    window.onload = function() {
+        document.getElementById('user').focus();
+        }
+</script>

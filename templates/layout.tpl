@@ -8,12 +8,6 @@
     <link rel="stylesheet" type="text/css" href="normalize.css" />
     <link rel="stylesheet" type="text/css" href="foundation.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-
-    <script>
-        window.onload = function() {
-            document.getElementById('user').focus();
-            }
-    </script>
 </head>
 
 <body>
