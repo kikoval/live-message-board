@@ -40,10 +40,21 @@
         </tbody>
 	</table>
 	{else}
-	<div>
-		<form action="?login" method="post">
-			heslo: <input type="password" name="pass"/>
-			<input type="submit" name="submit" value="login"/>
+		<form action="?login" method="post" id="login-form">
+            <div class="row">
+                
+                <div class="small-1 columns"><label for="pass" class="right inline">Heslo:</label></div>
+                    <div class="small-2 columns"><input type="password" name="pass" id="pass"/>    
+                    </div>
+                <div class="small-1 columns">
+                    <input type="submit" name="submit" value="login" class="button postfix"/>
+                    </div>
+                </div>
 		</form>
-	</div>
+
+        <script>
+            window.onload = function() {
+                document.getElementById('pass').focus();
+            }
+        </script>
 	{/if}
