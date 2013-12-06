@@ -5,7 +5,7 @@
             </a>
     </div>
     <div class="small-3 columns">
-        <h1>Vitaj na beánii, ako sa ti tu páči?</h1>
+        <h1 class="view">Vitaj na beánii, ako sa ti tu páči?</h1>
     </div>
 </header>
             

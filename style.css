@@ -7,32 +7,17 @@ body {
 
 header + p {margin-top: 2em;}
 
-.warnings {
-	color: red;
-}
+.warnings {color: red;}
 
-.formular {
-	line-height: 1.5;
-}
+.footer {text-align: center;}
 
-.footer {
-	text-align: center;
-}
-
-input[type="text"] {
-	width: 20em;
-}
-
-textarea {
-	min-height: 6em;
-}
-
-.logo {
-	display: block;
-	margin: 5px auto;
-}
+/* formular */
+.formular {line-height: 1.5;}
+input[type="text"] {width: 20em;}
+textarea {min-height: 6em;}
 
 /* view */
+h1.view {font-size: 1.9em;}
 #napis_komentar {
 	border: medium solid red;
 	padding: .5em;
@@ -49,14 +34,20 @@ textarea {
 	}
 
 .name {
-	float: left; font-size: 1.3em; padding-right: .2em; color: #006900;
+	float: left;
+    font-size: 1.3em;
+    padding-right: .2em;
+    color: #006900;
 }
 .name:after {
     content: ":";
 }
 
 .date {
-	float: left; font-size: 1em; color: #777777; padding: .2em;
+	float: left;
+    font-size: 1em;
+    color: #777777;
+    padding: .2em;
 }
 
 .text {font-size: 1.4em;}
@@ -68,7 +59,6 @@ textarea {
 	font-size: 1.4em; 
 	margin: 0 1em 0 0;
 	float: left;
-	xborder: 1px solid red;
 }
 
 /* admin */
